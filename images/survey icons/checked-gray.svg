@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30.494 27.393">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #b7b7b7;
+      }
+    </style>
+  </defs>
+  <g id="checked" transform="translate(0 0)">
+    <path id="Path_72" data-name="Path 72" class="cls-1" d="M26.876,12.3a.516.516,0,0,0-.517.517V29.359H1.034V4.034H26.359v.517a.517.517,0,0,0,1.034,0V3H0V30.393H27.393V12.82A.516.516,0,0,0,26.876,12.3Z" transform="translate(0 -3)"/>
+    <path id="Path_73" data-name="Path 73" class="cls-1" d="M36.248,7.151a.516.516,0,0,0-.731,0L19.86,22.808l-6.755-6.755a.517.517,0,1,0-.731.731L19.495,23.9a.517.517,0,0,0,.731,0L36.248,7.882A.516.516,0,0,0,36.248,7.151Z" transform="translate(-5.906 -4.933)"/>
+  </g>
+</svg>

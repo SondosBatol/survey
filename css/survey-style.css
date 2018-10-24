@@ -1,0 +1,393 @@
+
+  @font-face {
+    font-family: DIN-LIGHT;
+    src: url(../fonts/DINNEXTLTARABIC-LIGHT.ttf);
+}
+@font-face {
+	font-family: DIN-MEDIUM;
+	src: url(../fonts/DIN-NEXT-LT-W23-MEDIUM.otf);
+}
+body{
+    direction:rtl;
+    text-align: right;
+    font-family:DIN-LIGHT,sans-serif;
+}
+
+h1,h2,h3,h4,h5,h6{
+ font-family: DIN-MEDIUM;
+}
+
+
+/*======create-survey-page=====*/
+.survey-content{
+	padding:2rem 10rem;
+}
+.create-survey-page .survey-header {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+	padding:1rem 5rem;
+}
+.create-survey-page .survey-header span,
+.create-survey-page .survey-header .survey-header-name,
+.create-survey-page .survey-header .survey-header-h,
+.create-survey-page .survey-header p{
+	color: #c7c7c7
+}
+.create-survey-page .survey-header span{
+	font-size: 2rem
+}
+.create-survey-page .survey-header .survey-header-name{
+	font-size: 3rem;
+	color: #56a849
+}
+.create-survey-page .survey-header p{
+	margin-bottom: 0
+}
+.create-survey-page .survey-header .survey-header-h{
+	font-size: 3rem;
+    font-family: DIN-MEDIUM;
+    text-align: left;
+}
+.survey-content .input-group-addon{
+	color: #6f7070;
+    border: 1px solid #ced4da;
+    border-right: 0;
+    border-top-left-radius: .25rem;
+    border-bottom-left-radius: .25rem;
+    padding: .3rem .6rem;
+    float: left;
+
+}
+.survey-content .input-group,
+.survey-content .form-control{
+	border-color: #b2b1b1
+}
+.survey-content .input-group input{
+	border-top-left-radius: 0;
+	border-bottom-left-radius: 0;
+	border-top-right-radius: .25rem;
+	border-bottom-right-radius: .25rem;
+	
+}
+.custom-radio .custom-control-input:checked~.custom-control-label::before,
+.custom-control-input:checked~.custom-control-label::before{
+	background: #56a849
+
+}
+.survey-content .custom-control-inline .custom-control-label{
+	cursor: pointer;
+}
+.survey-content .label-bold{
+	font-weight: bold;
+	margin-right: 2rem
+}
+.survey-content .label-bold h4{
+	color: #000
+}
+.survey-content .form-row{
+	margin-bottom: 2rem
+}
+.survey-content .save-btn{
+	background: #56a849;
+	color: #fff;
+	float: left;
+	font-weight: bold
+
+}
+.survey-content .save-btn i{
+	margin-right: .4rem;
+}
+select{
+	-webkit-appearance: none;
+	-moz-appearance: none;
+	-o-appearance: none;
+	appearance: none; 
+ }
+
+select::-ms-expand {
+	display: none;
+}
+
+select + i.fas {
+	float: left;
+    margin-top: -1.5rem;
+    margin-left: 1rem;
+	pointer-events: none;
+	background-color: transparent;
+	color:#888;
+	padding-right: 5px;
+}
+/*=====create-survey-page=====*/
+.create-survey-page .right-side{
+	background: #eeefef;
+	padding: 2rem 0;
+	width: 300px;
+	height: 100vh;
+	top: 0;
+	position: relative;
+	
+}
+.create-survey-page .header-right-side{
+	text-align: center;
+	border-bottom: 1px solid #ddd;
+	padding: 1rem;
+
+}
+.create-survey-page .header-right-side p{
+	font-size: 1.2rem;
+	color: #666;
+	margin-bottom: .5rem
+}
+.create-survey-page .header-right-side ul{
+	padding: 0;
+	display: flex;
+	justify-content: center
+}
+.create-survey-page .header-right-side ul .lang{
+	color: #b9b9b9;
+	font-size: 1rem;
+	font-weight: bold;	
+	margin-right: 1rem;
+	padding: .4rem 1rem;
+	cursor: pointer
+
+}
+.create-survey-page .header-right-side ul .lang_active{
+	color: #56a849;
+	border-bottom: 2px solid #56a849
+}
+.create-survey-page .right-side-content {
+	padding-top: 2rem;
+	padding-right: 0;
+}
+.create-survey-page .right-side-content li{
+	color: #7d7d7d;
+	display: flex;
+	justify-content: space-between;
+	font-size: 1.2rem;
+	padding: .5rem 2.5rem;
+	cursor: pointer;
+	padding-left: 1rem;
+
+}
+.create-survey-page .right-side-content i{
+	float: right;
+    right: 0;
+    width: 20px;
+	font-size: 1rem;
+	top: .6rem;
+    position: relative;
+}
+.create-survey-page .right-side-content .side-content-icon{
+	width: 30px;
+    height: 35px;
+	overflow: hidden;
+	margin-left: 1rem
+
+}
+.create-survey-page .right-side-content .side-content-icon img,
+.create-survey-page .right-side-content li,
+.survey-form,.create-survey-page .right-side{
+	-webkit-transition: all .4s ease-in-out 0s;
+    -moz-transition: all .4s ease-in-out 0s;
+    -o-transition: all .4s ease-in-out 0s;
+    transition: all .4s ease-in-out 0s;
+
+}
+.create-survey-page .right-side-content li.active {
+	color: #56a849;
+	font-weight: bold
+
+}
+.create-survey-page .right-side-content li.active .icon-gray{
+	display: none
+}
+.left-side{
+ padding: 3rem 0;
+ 
+}
+.survey-form{
+	padding: .5rem 2rem;
+	margin-bottom: 1.5rem;
+	border-radius: 2px;
+	position: relative;
+	box-shadow: 0 .125rem .25rem rgba(0,0,0,.075)
+}
+.survey-form .close-survey-form{
+	position: absolute;
+	cursor: pointer;
+	display: none;
+	left: 1rem;
+	color: #6f7070
+}
+.survey-form.survey-form_active .close-survey-form{
+	display: block
+}
+.survey-form.survey-form_active{
+	background: #eeefef;
+}
+.survey-form .survey-form-title{
+	color: #56a849;
+	display: flex;
+	align-items: center;
+	margin-bottom: 0;
+	cursor: pointer;
+	position: relative
+}
+.survey-form .survey-form-title .form-title-icon{
+	width: 20px;
+	margin: .5rem;
+}
+
+.survey-form .form-control{
+	margin-bottom: 1rem;
+    border-color: #888;
+}
+.survey-form .goup-answer{
+	margin-top: 2.5rem
+}
+.survey-form .goup-answer li{
+	display: flex;
+	position: relative;
+	width: 100%
+}
+.survey-form .goup-answer .form-control{
+	padding: .2rem;
+    font-size: 0.8rem;
+    height: calc(1.7rem + 2px);
+}
+.survey-form .goup-answer .remove-this{
+	color:  #e75839;
+	background: #fff;
+    margin-right: 1rem;
+    padding: .4rem 1rem;
+    height: 1.5rem;
+    width: 1rem;
+	text-align: center;
+	cursor: pointer
+}
+.survey-form .goup-answer .remove-this i{
+	position: relative;
+    top: -.4rem;
+    right: -.4rem;
+}
+.survey-form .goup-answer li::before{
+	content: '';
+	position: absolute;
+    right: -1.4rem;
+    top: .4rem;
+    height: 15px;
+    width: 15px;
+	border: 1px solid #666;
+	border-radius: 50%
+}
+.survey-form .goup-answer ul{
+	padding-right: 1.4rem;
+}
+
+.survey-form .survey-add-new::before{
+	display: none
+}
+
+.survey-form .survey-add-new{
+	color: #666;
+	right: -1.5rem;
+	width: 100%
+}
+
+.survey-form .survey-add-new span{
+	background: #ddd;
+	padding: 0.2rem .5rem;
+    margin-right: .1rem;
+	font-size: .8rem;
+	border-radius: 2px;
+	cursor: pointer;
+	display: inline-block
+}
+.survey-form  .survey-add-new-text{
+  width: 80%
+}
+/*.survey-form .inline-group-answer ul{
+	display: flex;
+	flex-wrap: wrap
+}
+.survey-form .inline-group-answer ul li{
+	width: 33%
+}
+.survey-form .inline-group-answer .form-control{
+	width: 72%
+}
+.survey-form .inline-group-answer .remove-this{
+  margin-right: .5rem
+}
+.survey-form .inline-group-answer ul .survey-add-new{
+	width: 100%
+  }
+  .survey-form  .inline-group-answer .survey-add-new-text{
+	  width: 24%
+  }
+  */
+  .create-survey-page .save-btn{
+	  background: #56a849;
+	  color: #fff;
+	  float: left;
+	  display: block;
+	  margin-left: 4rem;
+	  margin-bottom: 2rem;
+  }
+  .create-survey-page .survey-form-block{
+	  margin-top: 1rem;
+	  display: none
+  }
+  .create-survey-page .left-side .survey-form:last-of-type .survey-form-block{
+	  display: block
+  }
+  .create-survey-page  .menu-mobile{
+	color: #56a849;
+	background: #fff;
+	text-align: center;
+    font-size: 1.5rem;
+	padding: .2rem .5rem;
+	width: 40px;
+	right: 2rem;
+	top: 2rem;;
+	position: fixed;
+	z-index: 10;
+	display: none
+  }
+  .create-survey-page .right-side .menu-mobile{
+	  position: absolute;
+	  left: 1rem;
+	  right: auto;
+	  top: .3rem;
+  }
+  @media (max-width:750px) {
+	.create-survey-page  .menu-mobile{
+		display: block
+	}
+	.create-survey-page .survey-header .survey-header-h{
+		text-align: right
+	}
+	.create-survey-page .survey-header{
+		text-align: center
+	}
+	.create-survey-page .survey-header .survey-header-h,
+	.create-survey-page .survey-header .survey-header-name{
+		font-size: 2rem
+	}
+	.create-survey-page .row .col-3,
+	.create-survey-page .row .col-8,
+	.survey-form .goup-answer{
+		min-width: 100%
+	}
+	.create-survey-page .right-side{
+		position: fixed;
+		z-index: 20;
+		right: -300px
+	}
+	.create-survey-page .right-side.right-side_active{
+		right: 0
+	}
+
+  }

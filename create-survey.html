@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css">
+
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/survey-style.css">
+    <title>!</title>
+</head>
+
+<body>
+    <div class="create-survey-page">
+        <div class="survey-header shadow-sm">
+            <div class="survey-header-title">
+                <span>هلا بك</span>
+                <h2 class="survey-header-name">ايمن الديب</h2>
+                <p>الأستبيان ولا أسهل املا البيانات لعمل الاستبيان</p>
+            </div>
+            <div class="survey-header-h">
+                عمل
+                <br> الأستبيان
+            </div>
+        </div>
+        <div class="survey-content">
+            <div class="form-row">
+                <div class="col">
+                    <label class="col-label" for="survey-name">الأسم</label>
+                    <input type="tezt" id="survey-name" class="form-control" placeholder="" required>
+                </div>
+                <div class="col">
+                    <label class="col-label" for="survey2">القناه / الحجره </label>
+                    <select class="form-control" id="survey2">
+                        <option></option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="col">
+                    <label for="formGroupExampleInput"> التاريخ</label>
+                    <div class="input-group">
+                        <input type="date" id="validationCustom02" class="form-control" placeholder="" required>
+
+                        <span class="input-group-addon"><i class="far fa-calendar-alt"></i></span>
+
+                    </div>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label class="col-label label-bold">ارسال التقديم للمدير :</label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline1" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline1">نعم </label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline" name="customRadioInline1" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline">لا </label>
+                    </div>
+                    <label class="col-label label-bold">النوع :</label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline2" name="customRadioInline2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline2">محادثه </label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline3" name="customRadioInline2" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline3">رابط </label>
+                    </div>
+
+                </div>
+            </div>
+            <div class="form-row">
+
+                <div class="col-4">
+                    <label class="col-label label-bold">المنبه :</label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline4" name="customRadioInline3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline4">بدون</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline5" name="customRadioInline3" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline5">اجبارى </label>
+                    </div>
+                    <br>
+                    <select class="form-control" id="survey2">
+                        <option selected> اختر الفتره</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                    <i class="fas fa-chevron-down"></i>
+                </div>
+                <div class="col">
+                    <label class="col-label" for="words">الكلمات الدلاليه</label>
+                    <input type="text" id="words" class="form-control" placeholder="" required>
+                </div>
+            </div>
+            <div class="form-row">
+                <div class="col">
+                    <label class="col-label label-bold">
+                        <h4> التصعيد : </h4></label>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline6" name="customRadioInline4" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline6">نعم</label>
+                    </div>
+                    <div class="custom-control custom-radio custom-control-inline">
+                        <input type="radio" id="customRadioInline7" name="customRadioInline4" class="custom-control-input">
+                        <label class="custom-control-label" for="customRadioInline7"> لا</label>
+                    </div>
+                    <p>هل تريد اضافه تصعيد الى هذا الأستبيان ؟؟</p>
+                    <br>
+                </div>
+            </div>
+            <button class="btn save-btn"> التالى <i class="fas fa-arrow-left"></i></button>
+        </div>
+    </div>
+</body>
+<!--========== End mycourses ==========-->
+
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js"></script>
+<!--Main js for all bot-->
+<script src="js/survey.js"></script>
+
+</html>
